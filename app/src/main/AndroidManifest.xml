@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example.possstaff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.POSSStaff">
+
+        <activity
+            android:name=".activities.AdminManageMenuActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.HistoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.CartActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.MenuActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.TableActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.ZoneActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

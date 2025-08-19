@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black_bg" android:padding="16dp"
+    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView android:id="@+id/tvWelcome"
+        android:textColor="@color/text_primary" android:textSize="20sp"
+        android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <LinearLayout android:layout_marginTop="16dp"
+        android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <Button android:id="@+id/btnZoneA" android:text="Khu A (13 bàn)"
+            android:background="@drawable/btn_red" android:textColor="@color/text_primary"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnZoneB" android:text="Khu B (15 bàn)"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn_red" android:textColor="@color/text_primary"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnZoneC" android:text="Khu C (16 bàn)"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn_red" android:textColor="@color/text_primary"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

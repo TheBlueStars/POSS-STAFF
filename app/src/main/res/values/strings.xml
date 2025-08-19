@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">poss staff</string>
+    <string name="zone_title">Khu %1$s - Chọn bàn</string>
+    <string name="history_title_format">Khu %1$s - Bàn %2$d</string>
+    <string name="history_total_format">Tổng: %1$,d VNĐ</string>
+    <string name="order_item_name_price">%1$s  (%2$,d)</string>
+    <string name="order_item_qty">x%1$d</string>
+    <string name="product_image_desc">Ảnh món ăn</string>
+    <string name="product_name_placeholder">Tên món</string>
+    <string name="product_price_placeholder">0 VNĐ</string>
+    <string name="add_to_cart">Thêm</string>
+    <string name="chip_popular">Popular</string>
+    <string name="home_welcome">WELCOME</string>
+    <string name="home_search_hint">Search here</string>
+    <string name="admin_manage_title">Quản lý món</string>
+    <string name="admin_hint_name">Tên món</string>
+    <string name="admin_hint_price">Giá (VNĐ)</string>
+    <string name="admin_btn_add">Thêm</string>
+    <string name="admin_btn_update">Sửa</string>
+    <string name="admin_btn_delete">Xóa</string>
+    <string name="order_minus_label">–</string>
+    <string name="order_plus_label">+</string>
+    <string name="order_delete_label">Xóa</string>
+    <string name="order_minus_desc">Giảm số lượng</string>
+    <string name="order_plus_desc">Tăng số lượng</string>
+    <string name="order_delete_desc">Xóa món khỏi giỏ</string>
+
+</resources>

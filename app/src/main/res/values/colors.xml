@@ -1,0 +1,28 @@
+<resources>
+    <!-- 🎨 Màu chủ đạo -->
+    <color name="red_primary">#D32F2F</color>   <!-- Đỏ tươi -->
+    <color name="red_dark">#B71C1C</color>      <!-- Đỏ đậm -->
+    <color name="red_light">#FF6659</color>     <!-- Đỏ nhạt (highlight, ripple) -->
+    <color name="accent">#F44336</color>        <!-- Accent đỏ -->
+
+    <!-- ⚫ Màu nền tối -->
+    <color name="black_bg">#121212</color>      <!-- Nền chính (Dark) -->
+    <color name="gray_card">#1E1E1E</color>     <!-- Card nền xám đậm -->
+    <color name="gray_dark">#2C2C2C</color>     <!-- Toolbar, Bottom Nav -->
+    <color name="gray_light">#9E9E9E</color>    <!-- Viền hoặc text phụ -->
+    <color name="divider">#333333</color>       <!-- Divider line -->
+
+    <!-- ⚪ Màu sáng -->
+    <color name="white">#FFFFFF</color>         <!-- Text chính sáng -->
+    <color name="white_translucent">#80FFFFFF</color> <!-- White 50% alpha -->
+
+    <!-- ✍️ Text -->
+    <color name="text_primary">#FFFFFF</color>      <!-- Text chính -->
+    <color name="text_secondary">#BDBDBD</color>    <!-- Text phụ -->
+    <color name="text_hint">#9E9E9E</color>        <!-- Hint/EditText -->
+
+    <!-- ✅ Success / Warning / Error -->
+    <color name="success">#4CAF50</color>  <!-- Xanh lá -->
+    <color name="warning">#FFC107</color>  <!-- Vàng -->
+    <color name="error">#E53935</color>    <!-- Đỏ báo lỗi -->
+</resources>
